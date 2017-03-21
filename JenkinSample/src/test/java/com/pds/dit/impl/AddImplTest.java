@@ -22,6 +22,7 @@ public class AddImplTest {
 	public void testAdd() {
 		IAdd addObj = new AddImpl();
 		assertTrue(4 == addObj.add(2,2));
+		System.out.println("Test");
 	}
 
 }
